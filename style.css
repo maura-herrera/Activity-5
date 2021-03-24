@@ -1,25 +1,39 @@
-body{
-    background-image: url("https://geospatialmedia.s3.amazonaws.com/wp-content/uploads/2019/01/hubsan-x4-beach-sand-1920x1080.jpg");
+/* [NORMALIZATION] */
+html,
+body, h2, p, a {
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans-serif;
+}
 
+section{
+    background-image: url("https://geospatialmedia.s3.amazonaws.com/wp-content/uploads/2019/01/hubsan-x4-beach-sand-1920x1080.jpg");
+    width: 100%;
+    height: 100vh;
+    margin-top: 0px;
 
 }
 .container{
     width: 80%;
     height: auto;
     color: white;
-    margin-top: 20%;    
-  
+    padding-top: 50vh;
 }
 
 .container h2{
     font-size: 25px;
     font-weight: bold;
     color: rgb(148, 89, 12);
+    margin-top: 10px;
+    user-select: none;
+
 }
 
-.container h1{
+.container p{
     font-size: 50px;
     font-weight: normal;
+    margin-bottom: 20px;
+    user-select: none;
 }
 .container a{
     border-radius: 2em;
@@ -30,6 +44,7 @@ body{
     font-size: 20px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
 }
 
 .container a:hover{
@@ -39,3 +54,5 @@ body{
 .container {
     margin-left: 10%;
 }
+
+
